@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="861dp"
+        android:layout_height="614dp"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <SurfaceView
+            android:id="@+id/MapView"
+            android:layout_width="861dp"
+            android:layout_height="617dp" />
+
+        <ImageView
+            android:layout_width="858dp"
+            android:layout_height="606dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/map" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="204dp"
+        android:layout_height="606dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="198dp"
+        android:layout_height="606dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1074dp"
+        tools:layout_editor_absoluteY="8dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1264dp"
+        android:layout_height="133dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="622dp"></LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
